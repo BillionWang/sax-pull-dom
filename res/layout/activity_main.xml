@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonSax"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dip"
+        android:text="SAX解析" />
+
+    <Button
+        android:id="@+id/buttonDom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dip"
+        android:text="DOM解析" />
+
+    <Button
+        android:id="@+id/buttonPull"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dip"
+        android:text="PULL解析" />
+
+</LinearLayout>
